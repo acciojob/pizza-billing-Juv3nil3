@@ -10,7 +10,7 @@ public class Pizza {
         this.isVeg = isVeg;
         // your code goes here
         price = isVeg ? 300 : 400;
-        bill += "Base Price Of The Pizza: " + price +"/n";
+        bill = "Base Price Of The Pizza: " + price +"/n";
     }
 
     public int getPrice(){
