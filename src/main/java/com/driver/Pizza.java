@@ -48,7 +48,9 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        bill += "Total Price: " + price + "\n";
+        if (!bill.contains("Total Price: ")) {
+            bill += "Total Price: " + price + "\n";
+        }
         return this.bill;
     }
 }
