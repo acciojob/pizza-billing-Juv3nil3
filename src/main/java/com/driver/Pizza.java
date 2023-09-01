@@ -31,7 +31,7 @@ public class Pizza {
     public void addExtraToppings(){
         // your code goes here
         if(!bill.contains("Extra Toppings Added: ")){
-            int toppingPrice = isVeg? 70 : 120;
+            int toppingPrice = isVeg ? 70 : 120;
             price += toppingPrice;
             bill += "Extra Toppings Added: "+toppingPrice+"\n";
         }
